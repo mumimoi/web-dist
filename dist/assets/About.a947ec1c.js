@@ -1,1 +1,0 @@
-import{a as t,a5 as n,e,a8 as r,a7 as s}from"./index.e6b109ad.js";import{n as o}from"./index.875554e3.js";const i=async()=>await(await fetch("https://jsd.nn.ci/gh/alist-org/alist@main/README.md")).text(),m=()=>{t(),o("manage.sidemenu.about");const[a]=n(i);return e(s,{get loading(){return a.loading},get children(){return e(r,{get children(){return a()}})}})};export{m as default};
